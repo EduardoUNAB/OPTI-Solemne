@@ -3,7 +3,7 @@
 Distribución de combustibles con flota de camiones cisterna de doble compartimento.
 Resolución mediante **metaheurística en Python** (Algoritmo Genético), con verificación exacta por enumeración.
 
-> **Nombre:** _(completar)_ · **NRC:** _(completar)_ · **RUT:** _(completar)_
+> **Nombre:** Vicente Díaz - Eduardo Zepeda - Fernando Chávez · **NRC:** 7924 · **RUT:** 21761195-4 -- 20834105-7 -- 
 
 ## Contenido del repositorio
 
@@ -19,18 +19,6 @@ Resolución mediante **metaheurística en Python** (Algoritmo Genético), con ve
 2. **Scheduling de carga en el depósito.** Cálculo de tiempos de carga, modelo de makespan y diagrama de Gantt. **Makespan = 32,5 min** (igual a la cota inferior); ambos camiones salen a su hora.
 3. **Análisis de la solución del operador.** La propuesta **viola la estabilidad** en T2 y su costo declarado es falso: el costo real es **\$21.200** (dominado por \$20.000 de shortage). Una mejora factible lo reduce a **\$1.200**.
 4. **Extensión estocástica de dos etapas.** Decisiones here-and-now (rutas/cargas) vs. recourse (entregas/shortage) sobre 3 escenarios. **Costo esperado \$1.200**, **EVPI \$49**.
-
-## Cómo reproducir
-
-```bash
-pip install -r requirements.txt
-# regenerar el notebook desde el script (opcional)
-python build_notebook.py
-# ejecutar el notebook
-jupyter nbconvert --to notebook --execute --inplace Solemne_Optimizacion.ipynb
-```
-
-O simplemente abrir `Solemne_Optimizacion.ipynb` en Jupyter / VS Code y ejecutar todas las celdas.
 
 ## Enfoque y supuestos
 
