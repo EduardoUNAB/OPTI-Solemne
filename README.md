@@ -3,7 +3,7 @@
 Distribución de combustibles con flota de camiones cisterna de doble compartimento.
 Resolución mediante **metaheurística en Python** (Algoritmo Genético), con verificación exacta por enumeración.
 
-> **Nombre:** Vicente Díaz - Eduardo Zepeda - Fernando Chávez · **NRC:** 7924 · **RUT:** 21761195-4 -- 20834105-7 -- 
+> **Nombre:** Vicente Díaz - Eduardo Zepeda - Fernando Chávez · **NRC:** 7924 · **RUT:** 21761195-4 -- 20834105-7 -- 21777267-2
 
 ## Contenido del repositorio
 
